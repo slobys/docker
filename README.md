@@ -23,7 +23,7 @@ sudo yum update -y
 ```
 ## 一键脚本
 ```bash
-git clone https://github.com/slobys/docker.git && cd docker && chmod +x docker.sh && ./docker.sh
+sudo apt install git -y && git clone https://github.com/slobys/docker.git && cd docker && chmod +x docker.sh && ./docker.sh
 ```
 
   
